@@ -21,6 +21,14 @@ for n in ns:
 coefficients = np.polyfit(ns, times, 2)
 polynomial = np.poly1d(coefficients)
 
+n0 = 1000
+
+# Add a vertical line at n0
+plt.axvline(x=n0, color='green', linestyle='--', label=f'n0 ≈ {n0}')
+
+# Add annotation
+plt.text(n0 + 100, 0.5, f'n0 ≈ {n0}', color='green', fontsize=12)
+
 # Plot time vs n
 plt.plot(ns, times, label='Execution Time')
 plt.plot(ns, polynomial(ns), label='Fitted Polynomial (degree 2)')
