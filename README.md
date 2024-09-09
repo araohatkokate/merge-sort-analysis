@@ -1,6 +1,6 @@
 # Merge Sort Analysis
 ## Overview
-This assignment focuses on analyzing the time complexity of a function with two nested loops that each run \(n\) times, resulting in a complexity of **O(n²)**. There is also measurement of the function’s execution time for various input sizes, plot the results, and fitting a polynomial curve to verify the quadratic time complexity. The plot graph also determines \(n_0\), the point where the function's asymptotic behavior begins to dominate.There is also implementation of Merge Sort, which runs in **O(n log n)**.
+This assignment focuses on analyzing the time complexity of a function with two nested loops that each run \(n\) times, resulting in a complexity of **O(n²)**. There is also measurement of the function’s execution time for various input sizes, plot the results, and fitting a polynomial curve to verify the quadratic time complexity. The plot graph also determines \(n_0\), the point where the function's asymptotic behavior begins to dominate. There is also implementation of Merge Sort, which runs in **O(n log n)**.
 
 
 ## Time Complexity Analysis (Task 3)
