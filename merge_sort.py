@@ -1,3 +1,4 @@
+#task 6
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -25,7 +26,6 @@ def merge(left, right):
     
     return result
 
-# Test the merge sort on the given array
 arr = [5, 2, 4, 7, 1, 3, 2, 6]
 sorted_arr = merge_sort(arr)
 print("Sorted array:", sorted_arr)
